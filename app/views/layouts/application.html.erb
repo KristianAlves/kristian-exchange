@@ -8,8 +8,15 @@
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
-
   <body>
     <%= yield %>
   </body>
 </html>
+
+<footer color="white">
+  <div align="center" class="col-lg-12">
+  <hr>
+    <font color="white">Copyright &copy; Kristian Alves <%= Date.today.year %></font> <br>
+    <font color="white">Developed by <a href="mailto:kristian.alves@gmail.com" target="_top">Kristian</a></font>
+  </div>
+</footer>
